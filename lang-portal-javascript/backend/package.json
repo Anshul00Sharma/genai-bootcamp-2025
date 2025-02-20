@@ -1,0 +1,23 @@
+{
+  "name": "lang-portal-backend",
+  "version": "1.0.0",
+  "description": "Language Learning Portal Backend",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "bun-types": "^1.2.2",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/pg": "^8.10.9",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^6.3.4",
+    "typescript": "^5.3.3",
+    "@types/bun": "latest"
+  }
+}
